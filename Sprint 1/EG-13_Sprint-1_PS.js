@@ -168,5 +168,3 @@ function naturalSort(arr) {
         a.localeCompare(b, undefined, { numeric: true })
     );
 }
-
-console.log("10.", naturalSort(["file10.txt", "file2.txt", "file1.txt"]));
